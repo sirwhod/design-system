@@ -1,4 +1,4 @@
-import { Box, BoxProps } from '@ignite-ui/react'
+import { Box, BoxProps, Text } from '@ignite-ui/react'
 
 import type { Meta, StoryObj } from '@storybook/react'
 
@@ -8,7 +8,7 @@ export default {
   args: {
     children: (
       <>
-        <span>Testando o elemento Box</span>
+        <Text>Testando o elemento Box</Text>
       </>
     ),
   },
