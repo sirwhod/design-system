@@ -26,6 +26,13 @@ export const Primary: StoryObj<TextInputProps> = {
     placeholder: 'Add anything on input.',
   },
 }
+
+export const Disabled: StoryObj<TextInputProps> = {
+  args: {
+    disabled: true,
+  },
+}
+
 export const WithPrefix: StoryObj<TextInputProps> = {
   args: {
     prefix: 'call.com/',
