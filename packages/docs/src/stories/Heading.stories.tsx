@@ -1,4 +1,4 @@
-import { Heading, HeadingProps } from '@ignite-ui/react'
+import { Heading, HeadingProps } from '@sirwhod-ignite-ui/react'
 
 import type { Meta, StoryObj } from '@storybook/react'
 
